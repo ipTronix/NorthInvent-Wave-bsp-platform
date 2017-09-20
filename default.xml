@@ -21,7 +21,7 @@
   <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="dizzy" name="Documentation" path="sources/Documentation"/>
-  <project remote="iptronix" revision="dizzy" name="meta-wave" path="sources/meta-roj"/>
+  <project remote="iptronix" revision="dizzy" name="meta-roj" path="sources/meta-roj"/>
   <project remote="iptronix" revision="master" name="meta-wave" path="sources/meta-wave"/>
 
 </manifest>
