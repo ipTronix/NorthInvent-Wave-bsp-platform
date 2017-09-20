@@ -6,14 +6,14 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/ipTronix" name="wave"/>
+  <remote fetch="git://github.com/ipTronix" name="iptronix"/>
 
   <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="wave" revision="dizzy" name="NorthInvent-Wave-bsp-base" path="sources/base">
+  <project remote="iptronix" revision="dizzy" name="NorthInvent-Wave-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
@@ -21,6 +21,7 @@
   <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="dizzy" name="Documentation" path="sources/Documentation"/>
-  <project remote="wave" revision="dizzy" name="meta-wave" path="sources/meta-wave"/>
+  <project remote="iptronix" revision="dizzy" name="meta-wave" path="sources/meta-roj"/>
+  <project remote="iptronix" revision="dizzy" name="meta-wave" path="sources/meta-wave"/>
 
 </manifest>
