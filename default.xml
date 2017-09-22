@@ -6,6 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5" />
   <remote fetch="git://github.com/ipTronix" name="iptronix"/>
 
   <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
@@ -21,6 +22,7 @@
   <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="dizzy" name="Documentation" path="sources/Documentation"/>
+  <project remote="qt5" revision="e91dea65659b0975146ad4f23d46e561ba8d9a08" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="iptronix" revision="dizzy" name="meta-roj" path="sources/meta-roj"/>
   <project remote="iptronix" revision="master" name="meta-wave" path="sources/meta-wave"/>
 
