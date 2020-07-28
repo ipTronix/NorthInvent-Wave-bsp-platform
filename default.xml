@@ -22,7 +22,7 @@
   <project remote="freescale" revision="dizzy" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="dizzy" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
   <project remote="freescale" revision="dizzy" name="Documentation" path="sources/Documentation"/>
-  <project remote="qt5" revision="e91dea65659b0975146ad4f23d46e561ba8d9a08" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="qt5" revision="dizzy" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="iptronix" revision="dizzy" name="meta-roj" path="sources/meta-roj"/>
   <project remote="iptronix" revision="master" name="meta-wave" path="sources/meta-wave"/>
 
